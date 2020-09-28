@@ -5,7 +5,7 @@ It is much cleaner, easier to understand, and overall an optimized version with 
 
 Whereas the original Fakeymon project was designed and written over the course of several months, Fakeymon2 took about 1.5 weeks to create from scratch. However, much of the design is the same as its original.
 
-Some important contents, such as the jar file, are currently missing because they are too heavy to upload to GitHub. I am currently tackling this issue.
+To play the game, all you need to download is "Fakeymon.jar" and the "data/" directory, and these must be together in the same directory to function properly. The "src/" directory is included for anyone interested in the game's source code.
 
 ### Credits
 * Developer:	Paulkia https://github.com/paulkia 				
@@ -16,7 +16,7 @@ Scenario 	//	Shivy \
 Wild Mon 	//	Literally just a GBC https://www.youtube.com/watch?v=2ANS0WTejeU&t=16s \
 FKYcenter	//	HypePixel.Hoenn https://www.youtube.com/watch?v=HokVYk76-n8 \
 FKYceus	//	Pokémon Company: GSC Legendary Trio \
-FKYceus2	//	Pokémon Company: N Theme (remix) \
+FKYceus2	//	Pokémon Company: N Theme (remix)
 * Ascii Art: \
 All sprites containing "mh" // Maija Haavisto \
 All other sprites except FKYceus //	Matheus Faria \
