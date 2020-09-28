@@ -1,0 +1,155 @@
+{
+  "attacks": [
+    {
+      "ID": 1,
+      "name": "Soft Slap",
+      "desc": "A soft attack with low power and moderate accuracy.",
+      "type": [
+        "physical"
+      ],
+      "power": 6,
+      "acc": 95
+    },
+    {
+      "ID": 2,
+      "name": "High Kick",
+      "desc": "An inaccurate attack with decent power.",
+      "type": [
+        "physical"
+      ],
+      "power": 9,
+      "acc": 75
+    },
+    {
+      "ID": 3,
+      "name": "Stoic",
+      "desc": "The user summons inner strength to boost defense by 25%.",
+      "type": [
+        "status"
+      ],
+      "stats": [
+        15,
+        null,
+        15,
+        null
+      ]
+    },
+    {
+      "ID": 4,
+      "name": "Shoulder Bash",
+      "desc": "An aggressive attack with decent power and accuracy.",
+      "type": [
+        "physical"
+      ],
+      "power": 11,
+      "acc": 90
+    },
+    {
+      "ID": 5,
+      "name": "Jaw Breaker",
+      "desc": "A brutal but inaccurate attack. It has a high crit ratio.",
+      "type": [
+        "physical"
+      ],
+      "sfx": [
+        "hi-crit"
+      ],
+      "sfx-val": [
+        40
+      ],
+      "power": 12,
+      "acc": 65
+    },
+    {
+      "ID": 6,
+      "name": "Flurry Fist",
+      "desc": "A highly inaccurate, but powerful barrage of speedy punches.",
+      "type": [
+        "physical"
+      ],
+      "power": 17,
+      "acc": 50
+    },
+    {
+      "ID": 7,
+      "name": "Precision Wing",
+      "desc": "The user sheds and hurls wings at the opponent. This attack does not miss.",
+      "type": [
+        "physical"
+      ],
+      "power": 13
+    },
+    {
+      "ID": 8,
+      "name": "Draco Energy",
+      "desc": "A mystical summoning of draconic energy, sharply boosting the user's attack and speed stats.",
+      "type": [
+        "status"
+      ],
+      "stats": [
+        null,
+        35,
+        null,
+        35
+      ]
+    },
+    {
+      "ID": 9,
+      "name": "Dark Energy",
+      "desc": "The user summons demonic spirits to drastically boost its attack stat.",
+      "type": [
+        "status"
+      ],
+      "stats": [
+        null,
+        70,
+        null,
+        null
+      ]
+    },
+    {
+      "ID": 10,
+      "name": "Druid Energy",
+      "desc": "The user draws power from nature, sharply raising HP and defense.",
+      "type": [
+        "status"
+      ],
+      "stats": [
+        45,
+        null,
+        45,
+        null
+      ]
+    },
+    {
+      "ID": 11,
+      "name": "Tornado Kick",
+      "desc": "The user increases agility to swiftly kick the enemy. The user's speed increases if it lands.",
+      "type": [
+        "physical",
+        "status"
+      ],
+      "power": 20,
+      "acc": 55,
+      "stats": [
+        null,
+        null,
+        null,
+        35
+      ]
+    },
+    {
+      "ID": 12,
+      "name": "Hyper Impact",
+      "desc": "The user charges at the foe using every bit of its power, dealing insane damage. It must rest on the next turn.",
+      "type": [
+        "physical"
+      ],
+      "sfx": [
+        "resting"
+      ],
+      "power": 30,
+      "acc": 90
+    }
+  ]
+}
