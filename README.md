@@ -9,7 +9,7 @@ To play the game, all you need to download is "Fakeymon.jar" and the "data/" dir
 
 ### Credits
 * Developer:	[Paulkia](https://github.com/paulkia)
-* Assist. Design:	[Max](https://github.com/maxdahan)					
+* Assist. Design:	[MaxDahan](https://github.com/maxdahan)					
 * Music: \
 Menu	 	//	@Bulbamike/Bulby https://www.youtube.com/watch?v=KsLbPopWlqM \
 Scenario 	//	Shivy \
