@@ -8,8 +8,8 @@ Whereas the original Fakeymon project was designed and written over the course o
 To play the game, all you need to download is "Fakeymon.jar" and the "data/" directory, and these must be together in the same directory to function properly. The "src/" directory is included for anyone interested in the game's source code.
 
 ### Credits
-* Developer:	Paulkia https://github.com/paulkia 				
-* Assist. Design:	Max												
+* Developer:	[Paulkia](https://github.com/paulkia)
+* Assist. Design:	[Max](https://github.com/maxdahan)					
 * Music: \
 Menu	 	//	@Bulbamike/Bulby https://www.youtube.com/watch?v=KsLbPopWlqM \
 Scenario 	//	Shivy \
