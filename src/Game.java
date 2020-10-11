@@ -270,7 +270,7 @@ public class Game extends Fakeyverse {
                 0 :
                 chooseMon("Which Fakeymon's status would you like to view?\n", true);
         if (monIndex != -1) {
-            p(user.team.get(monIndex).print());
+            System.out.print((user.team.get(monIndex).print()));
             Monster mon = user.team.get(monIndex);
             while (true) {
                 p("Type '1' to put " + mon.name + " at the front of your party, " +

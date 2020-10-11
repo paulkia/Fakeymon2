@@ -77,7 +77,7 @@ public class Battle extends Game {
             int battleOption = option(1, 4, true);
             if (battleOption == 0) chooseAttack();
             else if (battleOption == 1) {
-                p(user.team.get(0).print());
+                System.out.print(user.team.get(0).print());
                 p("> ");
                 enter();
             } else if (battleOption == 2) changeMon();
@@ -142,7 +142,7 @@ public class Battle extends Game {
                         otherMon.stats[DEF] + " def, " + otherMon.stats[SPE] + " speed)\n");
             }
             p("'X' to cancel.\n--> ");
-            int switchOption = option(1, user.team.size() -1, true);
+            int switchOption = option(1, user.team.size() - 1, true);
             if (switchOption != -1) {
                 mon.resetBattleStats();
                 p(mon.name + ", come back! > ");
@@ -409,7 +409,8 @@ public class Battle extends Game {
                                 } else break;
                             }
                         }
-                    } else if (option == 1) {
+                    }
+                    else if (option == 1) {
                         if (user.bag.size() < 1) {
                             p("Clerk: You currently have no items. > ");
                             enter();
@@ -557,14 +558,17 @@ public class Battle extends Game {
      * @param enemy - the enemy to mon. Not necessarily this.enemy.
      * @throws Exception if p(String), enter(), Item.use(Player, Monster, Monster), sfx(String) throw an exception.
      */
-    private void checkItems(Monster mon, Monster enemy) throws Exception {
+    private void checkItems(Monster mon, Monster enemy) throws Exception    {
         Item item = mon.holdItem == null ? null : GAME_ITEMS.get(mon.holdItem);
         if (item != null && item.holdItem) {
             if (struggle(mon) && usable(item)) {
                 p(mon.name + " used the held " + mon.holdItem + "! > ");
                 enter();
-                item.use(user, mon, enemy);
-                mon.holdItem = null;
+                if (item.use(user, mon, enemy)) {
+                    if (item.type.equalsIgnoreCase("esc"))
+                        runAway = true;
+                    mon.holdItem = null;
+                }
             } else if (item.type.equalsIgnoreCase("hold-heal")) {
                 String healPercent;
                 if (item.name.contains("hoo"))
