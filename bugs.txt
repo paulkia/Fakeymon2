@@ -1,0 +1,3 @@
+A list of bugs. I'll fix them at some point...?
+
+- If a wild mon throws a stick and it kills your mon, you get negative HP but can still fight.
