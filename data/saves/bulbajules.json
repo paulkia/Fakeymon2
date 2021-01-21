@@ -1,0 +1,136 @@
+{
+  "kills": 10,
+  "score": 615,
+  "bagSize": 3,
+  "money": 96,
+  "name": "bulbajules",
+  "bag": [
+    "Legend-hoo",
+    "Super-hoo",
+    "Healy-hoo"
+  ],
+  "team": [
+    {
+      "stats": [
+        164,
+        164,
+        124,
+        208
+      ],
+      "attacks": [
+        "Stoic",
+        "Shoulder Bash",
+        "Soft Slap",
+        "Tornado Kick",
+        "Precision Wing",
+        "Draco Energy",
+        "Hyper Impact",
+        "Druid Energy"
+      ],
+      "name": "Bababababazut",
+      "xp": 0,
+      "ID": null,
+      "tempStats": [
+        164,
+        164,
+        124,
+        208
+      ],
+      "holdItem": "XP Share"
+    },
+    {
+      "stats": [
+        159,
+        159,
+        159,
+        157
+      ],
+      "attacks": [
+        "Soft Slap",
+        "High Kick",
+        "Shoulder Bash",
+        "Hyper Impact",
+        "Jaw Breaker",
+        "Dark Energy",
+        "Tornado Kick"
+      ],
+      "name": "squirtlette",
+      "xp": 0,
+      "ID": null,
+      "tempStats": [
+        159,
+        159,
+        159,
+        157
+      ],
+      "holdItem": "Whistle-hoo"
+    },
+    {
+      "stats": [
+        20,
+        15,
+        35,
+        5
+      ],
+      "attacks": [
+        "Soft Slap",
+        "Stoic"
+      ],
+      "name": "Sir",
+      "xp": 0,
+      "ID": null,
+      "tempStats": [
+        20,
+        15,
+        35,
+        5
+      ],
+      "holdItem": "Super-hoo"
+    },
+    {
+      "stats": [
+        35,
+        58,
+        23,
+        58
+      ],
+      "attacks": [
+        "High Kick",
+        "Stoic"
+      ],
+      "name": "Charrlette",
+      "xp": 0,
+      "ID": null,
+      "tempStats": [
+        35,
+        58,
+        23,
+        58
+      ],
+      "holdItem": null
+    },
+    {
+      "stats": [
+        90,
+        56,
+        23,
+        56
+      ],
+      "attacks": [
+        "Stoic",
+        "Jaw Breaker"
+      ],
+      "name": "Baggy",
+      "xp": 0,
+      "ID": null,
+      "tempStats": [
+        90,
+        56,
+        23,
+        56
+      ],
+      "holdItem": null
+    }
+  ],
+  "xpShare": true
+}
