@@ -1,7 +1,7 @@
 # Fakeymon2
 
 This iteration of Fakeymon is a large renovation of my original Fakeymon game developed back in 2018.
-It is much cleaner, easier to understand, and overall an optimized version with no bugs that I know of. (Feel free to let me know if anything is wrong with the project at paulkarmel@outlook.com!)
+It is much cleaner, easier to understand, and overall an optimized version with very few bugs (see [bugs.txt](https://github.com/paulkia/Fakeymon2/blob/master/bugs.txt)). (Feel free to let me know if anything is wrong with the project at paulkarmel@outlook.com!)
 
 Whereas the original Fakeymon project was designed and written over the course of several months, Fakeymon2 took about 1.5 weeks to create from scratch. However, much of the design is the same as its original.
 
