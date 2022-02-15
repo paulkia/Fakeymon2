@@ -1,0 +1,4 @@
+A list of bugs. I'll fix them at some point...?
+
+- If a wild mon throws a stick and it kills your mon, you get negative HP but can still fight.
+- If a wild mon uses a smoke bomb, it might not allow them to escape the battle even though it should.

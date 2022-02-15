@@ -1,0 +1,20 @@
+# [ ID  | Name          | Type  | Value1    | Value2    | Use   | HoldItem  | SellsFor  | Costs | DropRate  | Desc  ]
+#
+1       | Healy-hoo     | Heal  | 10        |           | 1     | True      | 2         | 7     | 16        | Use on any mon to restore 10 hp.
+2       | Super-hoo     | Heal  | 50%       |           | 1     | True      | 7         | 12    | 12        | Use on any mon to restore 50% hp.
+3       | Smoke bomb    | Esc   |           |           | 4     | True      | 1         | 5     | 10        | Use in battle to ensure escape from enemy mon.
+4       | Rock          | Dam   | 30        |           | 4     | True      | 0         | 0     | 10        | Throw at enemy mon to inflict damage.
+5       | Stick         | Dam   | 20        | 40%       | 4     | True      | 0         | 0     | 10        | Throw at enemy mon to inflict damage. High crit chance.
+6       | Gualimine     | Cash  |           |           | 0     | False     | 10        | 0     | 10        | A cheap gem that can be sold to shops.
+7       | Mega-hoo      | Heal  | 100%      |           | 1     | True      | 15        | 35    | 8         | Use on any mon to restore all hp.
+8       | Qualimine     | Cash  |           |           | 0     | False     | 15        | 0     | 6         | A cheap gem that can be sold to shops.
+9       | Turquimine    | Cash  |           |           | 0     | False     | 25        | 0     | 4         | A gem that can be sold to shops.
+10      | Crystimine    | Cash  |           |           | 0     | False     | 35        | 0     | 3         | A gem that can be sold to shops.
+11      | Legend-hoo    | XHeal | 150%      |           | 1     | True      | 30        | 55    | 3         | Use on any mon to restore 150% hp.
+12      | Diamine       | Cash  |           |           | 0     | False     | 70        | 0     | 2         | A rare gem that can be sold to shops.
+13      | Whistle-hou   | BHeal | -10%      | 20%       | 0     | True      | 5         | 0     | 2         | Give to any mon to hold. Bizarre effects on hp.
+14      | XP share      | XP    | 50        |           | 0     | True      | 45        | 70    | 2         | A mon holding this item will obtain at least 50% XP per battle.
+15      | Whistle-hoo   | Heal  | 15%       |           | 0     | True      | 50        | 100   | 1         | Give to any mon to hold. Restores 15% hp per turn.
+16      | Maximeine     | Cash  |           |           | 0     | False     | 150       | 0     | 1         | The rarest gem in the world. It sells for a very high price.
+17      | Large bag     | Bag   | 10        |           | 2     | False     | 0         | 35    | 0         | Increases bag size to hold up to 10 items.
+18      | XL bag        | Bag   | 20        |           | 2     | False     | 0         | 55    | 0         | Increases bag size to hold up to 20 items.

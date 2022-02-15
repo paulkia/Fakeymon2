@@ -1,0 +1,12 @@
+- XP gain
+For each Fakeymon enemy E defeated, the winning Fakeymon W earns sum(stats(E))/10 XP points.
+
+- Obtaining new monsters
+For each Fakeymon defeated, there is a 50% chance that the mon will want to join the team.
+
+- Item drops
+For each Fakeymon defeated, there is a 75% chance that the mon will drop an object.
+    Of this 75%, there is a 50% chance that the object is a cash amount from $1 to $15 at random.
+    The other 50% chance is dropping an item.
+Additionally, there is a 50% chance that the Fakeymon is holding an item. If it joins a player's team,
+    the player can take this item. Therefore the overall chance of obtaining an item after battle is ~53.13%.
